@@ -1,0 +1,24 @@
+{
+  "name": "rc-skeleton",
+  "version": "0.1.0",
+  "description": "Provide a placeholder while you wait for content to load",
+  "main": "lib/index.html",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "example": "parcel ./example/index.html",
+    "build": "tsc -d --project tsconfig.json --outDir ./lib/"
+  },
+  "author": "wangcch",
+  "license": "MIT",
+  "dependencies": {
+    "emotion": "^10.0.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.12",
+    "@types/react-dom": "^16.8.3",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.1"
+  }
+}
