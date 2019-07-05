@@ -1,5 +1,5 @@
-import React from "react";
-interface IProps {
-}
-export declare const Skeleton: React.FC<IProps>;
+import Skeleton from "./skeleton";
+import Spin from "./spin";
+import Paragraph from "./paragraph";
+export { Spin, Paragraph };
 export default Skeleton;
