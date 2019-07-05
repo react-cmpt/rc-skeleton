@@ -1,9 +1,7 @@
-import React from "react";
+import Skeleton from "./skeleton";
+import Spin from "./spin";
+import Paragraph from "./paragraph";
 
-interface IProps {}
-
-export const Skeleton: React.FC<IProps> = props => {
-  return <div>demo</div>;
-};
+export { Spin, Paragraph };
 
 export default Skeleton;
