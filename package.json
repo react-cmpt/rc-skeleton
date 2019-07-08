@@ -2,7 +2,7 @@
   "name": "rc-skeleton",
   "version": "0.1.0",
   "description": "Provide a placeholder while you wait for content to load",
-  "main": "lib/index.html",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "example": "parcel ./example/index.html",
