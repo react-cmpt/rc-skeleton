@@ -1,5 +1,5 @@
 import { CSSProperties } from "react";
-export declare type widthUnit = string | string;
+export declare type widthUnit = string | number;
 export declare function ParagraphItem(props: {
     width?: widthUnit;
     active?: boolean;

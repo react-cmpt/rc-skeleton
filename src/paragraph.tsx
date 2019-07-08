@@ -1,7 +1,7 @@
 import React, { CSSProperties } from "react";
 import { css, cx } from "emotion";
 
-export type widthUnit = string | string;
+export type widthUnit = string | number;
 
 export function ParagraphItem(props: {
   width?: widthUnit;
