@@ -6,7 +6,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "example": "parcel ./example/index.html",
-    "build": "tsc -d --project tsconfig.json --outDir ./lib/"
+    "build": "tsc -d --project tsconfig.json --outDir ./lib/",
+    "test": "jest -c jest.json"
   },
   "author": "wangcch",
   "license": "MIT",
@@ -16,9 +17,16 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.1",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.15",
     "@types/react": "^16.8.12",
     "@types/react-dom": "^16.8.3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.8.0",
     "parcel-bundler": "^1.12.3",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.1"
   }
 }
