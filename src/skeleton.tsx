@@ -11,9 +11,12 @@ interface IProps {
   // Paragraph
   rows?: number;
   width?: widthUnit | widthUnit[];
+  active?: boolean;
+  paragraphClassName?: string;
 
   // Spin
   fullHeight?: boolean;
+  spinClassName?: string;
 }
 
 const defaultProps: IProps = {
@@ -28,20 +31,28 @@ export const Skeleton: React.FC<IProps> = props => {
     style,
     rows,
     width,
+    active,
+    paragraphClassName,
     fullHeight,
+    spinClassName,
     children,
   } = props;
 
   if (loading && emptyData) {
     return (
       <div className={className} style={style}>
-        <Paragraph rows={rows} width={width} />
+        <Paragraph
+          rows={rows}
+          width={width}
+          active={active}
+          className={paragraphClassName}
+        />
       </div>
     );
   }
 
   return (
-    <Spin loading={loading} fullHeight={fullHeight}>
+    <Spin loading={loading} fullHeight={fullHeight} className={spinClassName}>
       {children}
     </Spin>
   );

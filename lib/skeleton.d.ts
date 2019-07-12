@@ -7,7 +7,10 @@ interface IProps {
     style?: React.CSSProperties;
     rows?: number;
     width?: widthUnit | widthUnit[];
+    active?: boolean;
+    paragraphClassName?: string;
     fullHeight?: boolean;
+    spinClassName?: string;
 }
 export declare const Skeleton: React.FC<IProps>;
 export default Skeleton;
