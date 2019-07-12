@@ -1,5 +1,5 @@
 {
-  "name": "rc-skeleton",
+  "name": "@react-cmpt/rc-skeleton",
   "version": "0.1.0",
   "description": "Provide a placeholder while you wait for content to load",
   "main": "lib/index.js",
@@ -9,7 +9,18 @@
     "build": "tsc -d --project tsconfig.json --outDir ./lib/",
     "test": "jest -c jest.json"
   },
-  "author": "wangcch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-cmpt/rc-skeleton.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "skeleton",
+    "spin",
+    "loading"
+  ],
+  "author": "wangcch <wangcch.cc@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "emotion": "^10.0.9",
