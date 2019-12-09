@@ -1,6 +1,6 @@
 {
   "name": "@react-cmpt/rc-skeleton",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provide a placeholder while you wait for content to load",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
